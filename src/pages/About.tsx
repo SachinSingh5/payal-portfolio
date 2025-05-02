@@ -6,30 +6,42 @@ import CtaSection from '@/components/CtaSection';
 
 const About = () => {
   const skills = {
-    ui: ["Wireframing", "Visual Design", "Prototyping", "Design Systems", "Figma", "Sketch", "Adobe XD", "Adobe Creative Suite"],
-    ux: ["User Research", "Information Architecture", "Usability Testing", "User Flow Mapping", "Persona Development", "Journey Mapping", "A/B Testing"],
-    soft: ["Communication", "Collaboration", "Critical Thinking", "Problem Solving", "Presentation Skills", "Project Management", "Client Relations"]
+    ui: ["Wireframing & Prototyping (Figma)", "UX Writing", "Visual Design", "Interface Design", "Usability Testing"],
+    ux: ["User Research", "Information Architecture", "Usability Testing", "User Flow Mapping", "Heuristic Evaluation"],
+    soft: ["Leadership", "Teamwork", "Communication", "Problem Solving", "Presentation Skills"]
   };
 
   const experiences = [
     {
-      title: "Senior UI/UX Designer",
-      company: "Digital Innovations Inc.",
-      period: "2023 - Present",
-      description: "Lead design initiatives for enterprise clients across fintech, healthcare, and e-commerce sectors. Manage a team of 3 junior designers and collaborate closely with product and development teams.",
+      title: "Live Project",
+      company: "Under guidance of Mr. Sumit Rampal",
+      period: "03/2025 - 06/2025",
+      description: "Worked on an 8-week live project to develop a financial literacy mobile application specifically designed for women.",
+    },
+  ];
+  
+  const education = [
+    {
+      degree: "BTech in CSE(UX/UI)",
+      institution: "K.R. Mangalam University",
+      period: "08/2023 - 06/2027",
+      details: "CGPA: 9.39/10",
+      location: "Gurgaon, India"
     },
     {
-      title: "UI/UX Designer",
-      company: "CreativeStack Agency",
-      period: "2020 - 2023",
-      description: "Designed mobile applications and responsive websites for various clients. Conducted user research, created wireframes, prototypes, and managed the design system.",
+      degree: "12th Grade",
+      institution: "R.P.S. Sr. Sec. School",
+      period: "04/2021 - 03/2023",
+      details: "Percentage: 75%",
+      location: "Mahendergarh, India"
     },
     {
-      title: "UI Designer",
-      company: "WebSolutions Co.",
-      period: "2019 - 2020",
-      description: "Created visual designs for websites and digital products. Collaborated with UX researchers and developers to implement designs.",
-    },
+      degree: "10th Grade",
+      institution: "R.P.S. Sr. Sec. School",
+      period: "04/2019 - 03/2021",
+      details: "Percentage: 95%",
+      location: "Mahendergarh, India"
+    }
   ];
 
   return (
@@ -55,8 +67,8 @@ const About = () => {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                  alt="Alex - UI/UX Designer" 
+                  src="/lovable-uploads/eb0724ac-99b9-4b29-a6b9-08125d559b1b.png" 
+                  alt="Payal Dhillon - UI/UX Designer" 
                   className="w-full object-cover"
                 />
               </div>
@@ -66,24 +78,22 @@ const About = () => {
           
           <div className="md:col-span-7">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Bringing user-centered design to every project
+              Passionate about user-centered design
             </h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                Hello! I'm Alex, a UI/UX designer with over 6 years of experience creating digital products 
-                that balance business goals with user needs. My journey in design began with a 
-                fascination for how people interact with technology, and has evolved into a passionate 
-                career crafting intuitive, engaging experiences.
+                Hello! I'm Payal Dhillon, a UI/UX designer pursuing my B.Tech in CSE (UX/UI) at K.R. Mangalam University. 
+                My passion lies in creating intuitive, user-centric digital experiences that solve real-world problems.
               </p>
               <p>
-                I specialize in translating complex requirements into elegant, user-friendly designs 
-                that solve real problems. My approach combines thorough research, strategic thinking, 
-                and creative exploration to create products that users genuinely enjoy using.
+                With a keen eye for detail and usability, I approach each project with a focus on understanding 
+                user needs and translating them into effective design solutions. My experience includes 
+                wireframing, prototyping, UX writing, and usability testing.
               </p>
               <p>
-                When I'm not designing, you can find me exploring photography, reading about emerging 
-                tech trends, or hiking with my dog. I believe that drawing inspiration from diverse 
-                experiences enriches my design perspective and helps me create more human-centered solutions.
+                As Hostel Secretary at my university, I've developed strong communication and leadership skills
+                that complement my technical abilities. I'm eager to apply my skills through practical projects
+                and internships to create designs that truly resonate with users.
               </p>
             </div>
             
@@ -91,16 +101,20 @@ const About = () => {
               <h3 className="font-semibold text-xl mb-4">Education & Certifications</h3>
               <div className="space-y-3">
                 <div>
-                  <p className="font-medium">Bachelor of Fine Arts in Graphic Design</p>
-                  <p className="text-gray-600">Design Institute, 2017</p>
+                  <p className="font-medium">BTech in CSE(UX/UI)</p>
+                  <p className="text-gray-600">K.R. Mangalam University, 2023-2027 (CGPA: 9.39/10)</p>
                 </div>
                 <div>
-                  <p className="font-medium">User Experience Design Certification</p>
-                  <p className="text-gray-600">Nielsen Norman Group, 2019</p>
+                  <p className="font-medium">Google UX Design Professional Certificate</p>
+                  <p className="text-gray-600">Google</p>
                 </div>
                 <div>
-                  <p className="font-medium">Design Leadership & Management</p>
-                  <p className="text-gray-600">Design Leadership Academy, 2022</p>
+                  <p className="font-medium">Google Analytics Certification</p>
+                  <p className="text-gray-600">Google</p>
+                </div>
+                <div>
+                  <p className="font-medium">Infosys Database and SQL certification</p>
+                  <p className="text-gray-600">Infosys</p>
                 </div>
               </div>
             </div>
@@ -117,7 +131,7 @@ const About = () => {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="subtle-card">
-              <h3 className="text-xl font-bold text-designer-purple mb-6">UI Design</h3>
+              <h3 className="text-xl font-bold text-designer-purple mb-6">Design/UX Skills</h3>
               <ul className="space-y-3">
                 {skills.ui.map((skill, index) => (
                   <li key={index} className="flex items-center">
@@ -129,7 +143,7 @@ const About = () => {
             </div>
             
             <div className="subtle-card">
-              <h3 className="text-xl font-bold text-designer-purple mb-6">UX Design</h3>
+              <h3 className="text-xl font-bold text-designer-purple mb-6">Research & Analytical Skills</h3>
               <ul className="space-y-3">
                 {skills.ux.map((skill, index) => (
                   <li key={index} className="flex items-center">
@@ -141,7 +155,7 @@ const About = () => {
             </div>
             
             <div className="subtle-card">
-              <h3 className="text-xl font-bold text-designer-purple mb-6">Soft Skills</h3>
+              <h3 className="text-xl font-bold text-designer-purple mb-6">Interpersonal Skills</h3>
               <ul className="space-y-3">
                 {skills.soft.map((skill, index) => (
                   <li key={index} className="flex items-center">
@@ -158,7 +172,7 @@ const About = () => {
       {/* Experience Section */}
       <section className="py-16 md:py-24 container-custom">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          Work Experience
+          Experience & Education
         </h2>
         
         <div className="max-w-4xl mx-auto">
@@ -176,45 +190,67 @@ const About = () => {
                 </div>
               </div>
             ))}
+            
+            {education.map((edu, index) => (
+              <div key={`edu-${index}`} className="relative">
+                <div className="absolute -left-10 top-0 w-5 h-5 rounded-full bg-designer-purple"></div>
+                <div>
+                  <span className="text-sm text-designer-purple font-medium">
+                    {edu.period}
+                  </span>
+                  <h3 className="text-xl font-bold mt-1">{edu.degree}</h3>
+                  <p className="text-gray-600 font-medium">{edu.institution}</p>
+                  <p className="text-gray-600">{edu.details}</p>
+                  <p className="text-gray-600">{edu.location}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
       
-      {/* Design Philosophy */}
+      {/* Technologies & Tools */}
+      <section className="py-16 md:py-24 bg-designer-lightgray">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            Technologies & Tools
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="subtle-card">
+              <h3 className="text-xl font-bold text-designer-purple mb-6">Languages</h3>
+              <div className="flex flex-wrap gap-3">
+                <span className="px-4 py-2 bg-designer-purple/10 text-designer-darkpurple rounded-full">Python</span>
+                <span className="px-4 py-2 bg-designer-purple/10 text-designer-darkpurple rounded-full">Java</span>
+                <span className="px-4 py-2 bg-designer-purple/10 text-designer-darkpurple rounded-full">MySQL</span>
+              </div>
+            </div>
+            
+            <div className="subtle-card">
+              <h3 className="text-xl font-bold text-designer-purple mb-6">Design Tools</h3>
+              <div className="flex flex-wrap gap-3">
+                <span className="px-4 py-2 bg-designer-purple/10 text-designer-darkpurple rounded-full">Figma</span>
+                <span className="px-4 py-2 bg-designer-purple/10 text-designer-darkpurple rounded-full">Canva</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Achievements */}
       <section className="py-16 md:py-24 bg-designer-darkpurple text-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">
-              My Design Philosophy
+              Achievements
             </h2>
-            <p className="text-xl mb-12">
-              "Design is not just what it looks like and feels like. Design is how it works."
-            </p>
             
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white/10 p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4">User-Centered</h3>
-                <p className="text-white/80">
-                  I believe that understanding the user's needs, goals, and context is the foundation 
-                  of effective design. Every decision should enhance the user experience.
-                </p>
-              </div>
-              
-              <div className="bg-white/10 p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4">Purpose-Driven</h3>
-                <p className="text-white/80">
-                  Good design solves real problems. I approach each project with clear objectives and 
-                  ensure every design choice serves a purpose and aligns with business goals.
-                </p>
-              </div>
-              
-              <div className="bg-white/10 p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4">Iterative Process</h3>
-                <p className="text-white/80">
-                  Design excellence comes through continuous improvement. I embrace feedback, 
-                  testing, and iteration to refine solutions and deliver the best possible outcome.
-                </p>
-              </div>
+            <div className="subtle-card bg-white/10 p-8 rounded-xl">
+              <h3 className="text-xl font-bold mb-4">Top 10 Position in CodeRed Designathon</h3>
+              <p className="text-white/90 text-lg">
+                Secured a top 10 position in the CodeRed Designathon for redesigning a senior citizen fitness app,
+                showcasing creativity and user-centered design thinking.
+              </p>
             </div>
           </div>
         </div>

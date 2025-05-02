@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Mail, Phone, Github } from 'lucide-react';
 
 const CtaSection = () => {
   return (
@@ -14,6 +15,33 @@ const CtaSection = () => {
             I'm always interested in new opportunities and exciting projects.
             Let's discuss how I can help bring your vision to life.
           </p>
+          
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
+            <a 
+              href="mailto:dhillonpayal5@gmail.com" 
+              className="flex items-center bg-white/20 hover:bg-white/30 px-4 py-2 rounded-lg transition-colors"
+            >
+              <Mail className="mr-2" size={18} />
+              dhillonpayal5@gmail.com
+            </a>
+            <a 
+              href="tel:8053706091" 
+              className="flex items-center bg-white/20 hover:bg-white/30 px-4 py-2 rounded-lg transition-colors"
+            >
+              <Phone className="mr-2" size={18} />
+              8053706091
+            </a>
+            <a 
+              href="https://github.com/Payaldhillon0" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center bg-white/20 hover:bg-white/30 px-4 py-2 rounded-lg transition-colors"
+            >
+              <Github className="mr-2" size={18} />
+              github.com/Payaldhillon0
+            </a>
+          </div>
+          
           <Link 
             to="/contact" 
             className="bg-white text-designer-purple hover:bg-designer-darkpurple hover:text-white px-8 py-3 rounded-lg text-lg font-medium inline-block transition-colors"

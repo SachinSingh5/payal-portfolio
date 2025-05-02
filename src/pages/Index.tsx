@@ -22,8 +22,8 @@ const Index = () => {
             <span className="gradient-heading">UI/UX Designer</span> Crafting Intuitive Digital Experiences
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl">
-            I transform complex challenges into elegant, user-centered design solutions 
-            that merge business goals with exceptional user experiences.
+            Passionate UX/UI designer pursuing B.Tech in CSE (UX/UI) at K.R. Mangalam University. 
+            Skilled in user research, interaction design, and front-end development.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
@@ -57,12 +57,53 @@ const Index = () => {
         </div>
       </section>
       
+      {/* About Preview - Moved before projects */}
+      <section className="py-16 md:py-24 bg-designer-lightgray">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Hi, I'm Payal</h2>
+              <p className="text-gray-700 mb-6">
+                I'm a passionate UI/UX designer pursuing B.Tech in CSE (UX/UI) at K.R. Mangalam University.
+                With a keen eye for detail and usability, I create intuitive, user-centric experiences
+                through real-world projects and internships.
+              </p>
+              <p className="text-gray-700 mb-8">
+                My work spans across mobile applications and websites, always
+                focusing on creating intuitive experiences that solve real problems for users while
+                meeting business objectives.
+              </p>
+              <Link 
+                to="/about" 
+                className="inline-flex items-center text-designer-purple font-medium hover:underline"
+              >
+                More About Me <ArrowRight size={18} className="ml-1" />
+              </Link>
+            </div>
+            
+            <div className="relative">
+              <div className="aspect-square rounded-2xl overflow-hidden">
+                <img 
+                  src="/lovable-uploads/eb0724ac-99b9-4b29-a6b9-08125d559b1b.png" 
+                  alt="Payal Dhillon - UI/UX Designer" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              
+              {/* Decorative elements */}
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-2xl bg-designer-purple opacity-20"></div>
+              <div className="absolute -top-6 -left-6 w-32 h-32 rounded-2xl border-2 border-designer-purple"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Featured Projects */}
       <section className="py-16 md:py-24 container-custom">
         <div className="flex justify-between items-end mb-12 md:mb-16">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold">Featured Projects</h2>
-            <p className="text-gray-600 mt-2">Selected works I've created for clients</p>
+            <p className="text-gray-600 mt-2">Selected works showcasing my design process</p>
           </div>
           <Link 
             to="/portfolio" 
@@ -97,63 +138,66 @@ const Index = () => {
         </div>
       </section>
       
-      {/* About Preview */}
-      <section className="py-16 md:py-24 bg-designer-lightgray">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Hi, I'm Alex</h2>
-              <p className="text-gray-700 mb-6">
-                I'm a passionate UI/UX designer with over 6 years of experience creating digital products
-                that users love. My approach combines strategic thinking, user empathy, and visual design
-                expertise to craft experiences that are both beautiful and functional.
-              </p>
-              <p className="text-gray-700 mb-8">
-                My work spans across mobile applications, websites, and complex systems, always
-                focusing on creating intuitive experiences that solve real problems for users while
-                meeting business objectives.
-              </p>
-              <Link 
-                to="/about" 
-                className="inline-flex items-center text-designer-purple font-medium hover:underline"
-              >
-                More About Me <ArrowRight size={18} className="ml-1" />
-              </Link>
-            </div>
-            
-            <div className="relative">
-              <div className="aspect-square rounded-2xl overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                  alt="Alex - UI/UX Designer" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              
-              {/* Decorative elements */}
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-2xl bg-designer-purple opacity-20"></div>
-              <div className="absolute -top-6 -left-6 w-32 h-32 rounded-2xl border-2 border-designer-purple"></div>
-            </div>
+      {/* Skills Preview */}
+      <section className="py-16 md:py-24 container-custom">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+          My Skillset
+        </h2>
+        
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="subtle-card">
+            <h3 className="font-semibold text-lg mb-2">UI Design</h3>
+            <p className="text-gray-600 mb-4">Creating visually appealing, functional interfaces</p>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                Wireframing & Prototyping
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                Visual Design
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                UX Writing
+              </li>
+            </ul>
           </div>
-          
-          {/* Skills Preview */}
-          <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="subtle-card">
-              <h3 className="font-semibold text-lg mb-2">UI Design</h3>
-              <p className="text-gray-600">Creating visually appealing, functional interfaces</p>
-            </div>
-            <div className="subtle-card">
-              <h3 className="font-semibold text-lg mb-2">UX Research</h3>
-              <p className="text-gray-600">Understanding users through research and testing</p>
-            </div>
-            <div className="subtle-card">
-              <h3 className="font-semibold text-lg mb-2">Interaction Design</h3>
-              <p className="text-gray-600">Crafting meaningful interactions and animations</p>
-            </div>
-            <div className="subtle-card">
-              <h3 className="font-semibold text-lg mb-2">Design Systems</h3>
-              <p className="text-gray-600">Building scalable, consistent design frameworks</p>
-            </div>
+          <div className="subtle-card">
+            <h3 className="font-semibold text-lg mb-2">UX Research</h3>
+            <p className="text-gray-600 mb-4">Understanding users through research and testing</p>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                User Research
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                Usability Testing
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                Heuristic Evaluation
+              </li>
+            </ul>
+          </div>
+          <div className="subtle-card">
+            <h3 className="font-semibold text-lg mb-2">Soft Skills</h3>
+            <p className="text-gray-600 mb-4">Essential qualities for effective collaboration</p>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                Leadership
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                Teamwork
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-designer-purple rounded-full mr-3"></span>
+                Problem Solving
+              </li>
+            </ul>
           </div>
         </div>
       </section>
