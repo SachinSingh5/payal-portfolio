@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Linkedin, Mail, Phone } from 'lucide-react';
@@ -12,6 +12,14 @@ const Contact = () => {
     subject: '',
     message: '',
   });
+
+  useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    },[])
   
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -73,10 +81,10 @@ const Contact = () => {
                   <div className="ml-4">
                     <h3 className="font-medium">Email</h3>
                     <a 
-                      href="mailto:hello@alexdesign.com" 
+                      href="mailto:dhillonpayal5@gmail.com" 
                       className="text-gray-700 hover:text-designer-purple transition-colors"
                     >
-                      hello@alexdesign.com
+                      dhillonpayal5@gmail.com
                     </a>
                   </div>
                 </div>
@@ -89,7 +97,7 @@ const Contact = () => {
                       href="tel:+11234567890" 
                       className="text-gray-700 hover:text-designer-purple transition-colors"
                     >
-                      (123) 456-7890
+                      +91 8053706091
                     </a>
                   </div>
                 </div>
@@ -104,7 +112,7 @@ const Contact = () => {
                       rel="noreferrer"
                       className="text-gray-700 hover:text-designer-purple transition-colors"
                     >
-                      linkedin.com/in/alexdesigner
+                      https://www.linkedin.com/in/payal-dhillon-59a3902b1
                     </a>
                   </div>
                 </div>
@@ -219,11 +227,11 @@ const Contact = () => {
       </section>
       
       {/* Map Section */}
-      <section className="py-16 md:py-24 container-custom">
+      {/* <section className="py-16 md:py-24 container-custom">
         <div className="rounded-2xl overflow-hidden h-[400px] bg-designer-lightgray flex items-center justify-center">
           <p className="text-gray-500">Map placeholder - You can integrate Google Maps here</p>
         </div>
-      </section>
+      </section> */}
       
       <Footer />
     </div>

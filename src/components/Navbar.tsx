@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="text-2xl font-semibold font-heading text-designer-darkpurple">
-          <span className="gradient-heading">ALEX.DESIGN</span>
+          <span className="gradient-heading">PAYAL</span>
         </Link>
 
         {/* Desktop Menu */}

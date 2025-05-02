@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -9,6 +9,13 @@ import { ArrowLeft } from 'lucide-react';
 const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();
   const project = getProjectById(id || '');
+  useEffect(()=>{
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  },[id])
   
   if (!project) {
     return (
@@ -42,7 +49,7 @@ const ProjectDetail = () => {
           >
             <ArrowLeft size={16} className="mr-2" /> Back to Projects
           </Link>
-          
+          <br/>
           <span className="text-designer-purple font-medium uppercase text-sm tracking-wider mb-2">
             {project.category}
           </span>

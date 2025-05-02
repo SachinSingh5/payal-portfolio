@@ -50,7 +50,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: "e-commerce-website-redesign",
+    id: "e-commerce-website-redesign", //
     title: "FreshMarket E-Commerce Redesign",
     category: "Web Design",
     description: "A complete overhaul of an organic grocery e-commerce platform to improve conversion rates and customer satisfaction through intuitive navigation and optimized checkout processes.",
@@ -106,6 +106,41 @@ export const projects: Project[] = [
         title: "Iterative Prototyping",
         description: "Developed and refined interactive prototypes through multiple rounds of testing with actual healthcare providers in clinical settings.",
         image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3432&q=80"
+      }
+    ]
+  },
+  {
+    "id": "health-and-fitness-iconography",
+    "title": "Health and Fitness Iconography",
+    "category": "Icon Design",
+    "description": "A set of five visually consistent, user-friendly, and intuitive icons representing core features of a health and fitness application for children. The icons adhere to industry practices for visual language, scalability, and accessibility, enhancing user experience and interface navigation.",
+    "shortDescription": "Designing a cohesive icon set for a children's health and fitness app.",
+    "image": "/lovable-uploads/health-icon.png",
+    "overview": "This project focused on designing five icons for a children's health and fitness app, ensuring they are visually consistent, user-friendly and intuitive.",
+    "challenge": "The challenge was to create icons that are playful and engaging for children while remaining clear and informative for parents, balancing simplicity with effective communication of health-related features.",
+    "solution": "I designed a set of five icons with a soft, rounded, and playful style, using a gentle pastel color palette (sky blue, mint green, peach, lavender). The icons were designed for 48x48px and are scalable, with simple designs and label-support where needed.",
+    "results": "The result is a set of icons that effectively represent key features of a children's health and fitness app, including Child Profile, Hydration Tracker, Sleep Monitor, Nutrition Guide, and Vaccination, designed to be easily understood by both children and parents.",
+    "tools": ["Illustrator"],
+    "process": [
+      {
+        "title": "Competitive Analysis",
+        "description": "Conducted a thorough analysis of competitors like BabyChakra, Parentlane, and ImmunifyMe to identify best practices and opportunities for differentiation in icon design for children's healthcare apps. Key learnings included using joyful colors, intuitive visuals, themed color groups, and balancing playfulness with clarity.",
+        "image": "/lovable-uploads/icon3.png"
+      },
+      {
+        "title": "Design Process Definition",
+        "description": "Defined the design process with a focus on creating icons that are soft, rounded, playful yet clear, using a gentle pastel color palette, designed for 48x48px and scalable, and ensuring clarity with simple designs and label-support where needed.",
+        "image": "/lovable-uploads/icon2.png"
+      },
+      {
+        "title": "Icon Set Creation",
+        "description": "Designed a set of five icons representing Child (Child Profile), Hydration, Sleep (Sleep Monitor), Nutrition (Nutrition Guide), and Vaccination.",
+        "image": "/lovable-uploads/icon4.png"
+      },
+      {
+        "title": "Icon Usage",
+        "description": "Designed icons to be used for Child Profile (accessing child's health info), Hydration Tracker (tracking daily water intake), Sleep Monitor (monitoring sleep patterns), Nutrition Guide (viewing dietary tips), and Vaccination (checking upcoming/completed vaccines).",
+        "image": "/lovable-uploads/icon5.png"
       }
     ]
   }
