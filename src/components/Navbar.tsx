@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
           ))}
           <a id="resume-button-1" className="nav-link resume bg-designer-purple hover:bg-designer-darkpurple text-white px-6 py-2 rounded-lg transition-colors cursor-pointer" download="PayalDhillon_Resume.pdf"   href="/lovable-uploads/PayalDhillon_Resume.pdf">
-            <div onClick={()=>window.open('https://drive.google.com/file/d/1MuSke6ZVV0Sef1INwMI0eA1QlPjafWO-/view?usp=sharing', '_blank')}>
+            <div onClick={()=>window.open('https://drive.google.com/file/d/1NYIEudEN9InRBEPEm4T7av_rrqdiRGMT/view', '_blank')}>
               <h3 id="resume-link-1">RESUME</h3>
             </div>
           </a>
@@ -120,7 +120,7 @@ const Navbar = () => {
           ))}
          
           <a onClick={() => setIsMobileMenuOpen(false)} id="resume-button-1" className="text-center bg-designer-purple hover:bg-designer-darkpurple text-white px-6 py-2 rounded-lg transition-colors cursor-pointer" download="PayalDhillon_Resume.pdf"   href="/lovable-uploads/PayalDhillon_Resume.pdf">
-            <div onClick={()=>window.open('https://drive.google.com/file/d/1MuSke6ZVV0Sef1INwMI0eA1QlPjafWO-/view?usp=sharing', '_blank')}>
+            <div onClick={()=>window.open('https://drive.google.com/file/d/1NYIEudEN9InRBEPEm4T7av_rrqdiRGMT/view', '_blank')}>
               <h3 id="resume-link-1">RESUME</h3>
             </div>
           </a>
