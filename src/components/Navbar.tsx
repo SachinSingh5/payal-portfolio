@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="text-2xl font-semibold font-heading text-designer-darkpurple">
-          <span className="gradient-heading">PAYAL</span>
+          <span className="gradient-heading">PAYAL DHILLON</span>
         </Link>
 
         {/* Desktop Menu */}
@@ -54,12 +54,11 @@ const Navbar = () => {
               {link.title}
             </Link>
           ))}
-          <Link
-            to="/contact"
-            className="bg-designer-purple hover:bg-designer-darkpurple text-white px-6 py-2 rounded-lg transition-colors"
-          >
-            Let's Talk
-          </Link>
+          <a id="resume-button-1" className="nav-link resume bg-designer-purple hover:bg-designer-darkpurple text-white px-6 py-2 rounded-lg transition-colors cursor-pointer" download="PayalDhillon_Resume.pdf"   href="/lovable-uploads/PayalDhillon_Resume.pdf">
+            <div onClick={()=>window.open('https://drive.google.com/file/d/1MuSke6ZVV0Sef1INwMI0eA1QlPjafWO-/view?usp=sharing', '_blank')}>
+              <h3 id="resume-link-1">RESUME</h3>
+            </div>
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -119,13 +118,12 @@ const Navbar = () => {
               {link.title}
             </Link>
           ))}
-          <Link
-            to="/contact"
-            className="bg-designer-purple hover:bg-designer-darkpurple text-white px-6 py-3 rounded-lg transition-colors text-center"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Let's Talk
-          </Link>
+         
+          <a onClick={() => setIsMobileMenuOpen(false)} id="resume-button-1" className="text-center bg-designer-purple hover:bg-designer-darkpurple text-white px-6 py-2 rounded-lg transition-colors cursor-pointer" download="PayalDhillon_Resume.pdf"   href="/lovable-uploads/PayalDhillon_Resume.pdf">
+            <div onClick={()=>window.open('https://drive.google.com/file/d/1MuSke6ZVV0Sef1INwMI0eA1QlPjafWO-/view?usp=sharing', '_blank')}>
+              <h3 id="resume-link-1">RESUME</h3>
+            </div>
+          </a>
         </div>
       )}
     </nav>

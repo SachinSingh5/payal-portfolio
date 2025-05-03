@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import HeroDecoration from '@/components/HeroDecoration';
 import ProjectCard from '@/components/ProjectCard';
 import CtaSection from '@/components/CtaSection';
 import { projects } from '@/data/projects';
@@ -50,19 +51,8 @@ const Index = () => {
         </div>
 
         {/* Decorative elements */}
-        <div className="mt-20 md:mt-40 grid grid-cols-10 gap-4 opacity-75">
-          {Array.from({ length: 10 }).map((_, i) => (
-            <div
-              key={i}
-              className="h-2 rounded-full bg-gradient-to-r from-designer-purple to-designer-lightpurple"
-              style={{
-                opacity: 0.1 + i * 0.09,
-                transform: `scaleX(${0.5 + i * 0.05})`,
-                marginLeft: `${i * 5}%`
-              }}
-            ></div>
-          ))}
-        </div>
+        <HeroDecoration />
+        
       </section>
 
       {/* About Preview - Moved before projects */}
