@@ -10,7 +10,7 @@ import { projects } from '@/data/projects';
 import { ArrowRight } from 'lucide-react';
 
 const Index = () => {
-  const featuredProjects = projects.slice(1, 4);
+  const featuredProjects = projects.slice(0, 3);
 
   useEffect(() => {
     window.scrollTo({
