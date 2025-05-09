@@ -19,33 +19,78 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  // {
+  //   id: "fintech-mobile-app",
+  //   title: "FinWise - Personal Finance App",
+  //   category: "Mobile App Design",
+  //   description: "A comprehensive redesign of a personal finance tracking app focusing on clarity, accessibility, and intuitive user flows.",
+  //   shortDescription: "Redesigning a mobile finance app for improved usability and engagement",
+  //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2426&q=80",
+  //   overview: "FinWise needed a complete overhaul of their existing app to address poor user retention and negative reviews focusing on usability issues. The goal was to create a more intuitive and visually appealing interface that would encourage regular usage.",
+  //   challenge: "Users found the existing app confusing to navigate and visually overwhelming. Key functions were buried in menus, and the visual hierarchy didn't guide users to important features. Analytics showed high drop-off rates during the onboarding process.",
+  //   solution: "I developed a streamlined interface with clear visual hierarchy and simplified navigation. The redesign included a personalized dashboard, improved expense categorization, and a simplified onboarding flow that reduced steps by 40%.",
+  //   results: "After launch, user retention improved by 35%, session duration increased by 28%, and app store ratings went from 3.2 to 4.7 stars. Daily active users grew by 42% within three months.",
+  //   tools: ["Figma", "Protopie", "Miro", "Optimal Workshop", "Adobe Illustrator"],
+  //   process: [
+  //     {
+  //       title: "User Research",
+  //       description: "Conducted user interviews, analyzed app reviews, and created journey maps to identify pain points in the current experience.",
+  //       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
+  //     },
+  //     {
+  //       title: "Information Architecture",
+  //       description: "Restructured the app's navigation and content hierarchy to prioritize key features and simplify user flows.",
+  //       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3432&q=80"
+  //     },
+  //     {
+  //       title: "Visual Design",
+  //       description: "Created a clean, modern visual language with improved readability, consistent color coding, and clear data visualization components.",
+  //       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+  //     }
+  //   ]
+  // },
   {
-    id: "fintech-mobile-app",
-    title: "FinWise - Personal Finance App",
-    category: "Mobile App Design",
-    description: "A comprehensive redesign of a personal finance tracking app focusing on clarity, accessibility, and intuitive user flows.",
-    shortDescription: "Redesigning a mobile finance app for improved usability and engagement",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2426&q=80",
-    overview: "FinWise needed a complete overhaul of their existing app to address poor user retention and negative reviews focusing on usability issues. The goal was to create a more intuitive and visually appealing interface that would encourage regular usage.",
-    challenge: "Users found the existing app confusing to navigate and visually overwhelming. Key functions were buried in menus, and the visual hierarchy didn't guide users to important features. Analytics showed high drop-off rates during the onboarding process.",
-    solution: "I developed a streamlined interface with clear visual hierarchy and simplified navigation. The redesign included a personalized dashboard, improved expense categorization, and a simplified onboarding flow that reduced steps by 40%.",
-    results: "After launch, user retention improved by 35%, session duration increased by 28%, and app store ratings went from 3.2 to 4.7 stars. Daily active users grew by 42% within three months.",
-    tools: ["Figma", "Protopie", "Miro", "Optimal Workshop", "Adobe Illustrator"],
-    process: [
+    "id": "e-commerce-app-homepage",
+    "title": "Luxe Carry - E-commerce App Homepage",
+    "category": "Mobile App Design",
+    "description": "Design a clear and visually appealing typographic hierarchy for the homepage of a fictional e-commerce app.",
+    "shortDescription": "Designing the homepage of an e-commerce app with focus on typographic hierarchy",
+    "image": "/lovable-uploads/p1.png",
+    "overview": "The project focuses on designing the homepage of a fictional e-commerce app called 'Luxe Carry'. The main goal is to establish a clear and visually appealing typographic hierarchy.",
+    "challenge": "The challenge is to create a homepage with effective typographic hierarchy that enhances user experience.",
+    "solution": "The solution involves defining a color palette, typography system, and layout for the app's homepage.",
+    "results": "The result is a designed homepage prototype featuring product listings, categories, and user interface elements with a defined typographic structure.",
+    "tools": ["Figma"],
+    "process": [
       {
-        title: "User Research",
-        description: "Conducted user interviews, analyzed app reviews, and created journey maps to identify pain points in the current experience.",
-        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
+        "title": "Problem Statement",
+        "description": "Define the need for a clear and visually appealing typographic hierarchy for the e-commerce app's homepage.",
+        "image": "/lovable-uploads/p11.png"
       },
       {
-        title: "Information Architecture",
-        description: "Restructured the app's navigation and content hierarchy to prioritize key features and simplify user flows.",
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3432&q=80"
+        "title": "Colors",
+        "description": "Defined the color palette for the app, including background and text colors.",
+        "image": "/lovable-uploads/p10.png"
       },
       {
-        title: "Visual Design",
-        description: "Created a clean, modern visual language with improved readability, consistent color coding, and clear data visualization components.",
-        image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+        "title": "Typography",
+        "description": "Established the typographic hierarchy using the Roboto Serif font with defined styles for headings, sub-headings, and body text.",
+        "image": "/lovable-uploads/p4.png"
+      },
+      {
+        "title": "Iconography",
+        "description": "Utilized icons within the app's interface.",
+        "image": "/lovable-uploads/p5.png"
+      },
+      {
+        "title": "Wireframes",
+        "description": "Developed wireframes to outline the layout and structure of the homepage.",
+        "image": "/lovable-uploads/p8.png"
+      },
+      {
+        "title": "Prototype",
+        "description": "Created a high-fidelity prototype of the app's homepage, showcasing product listings and navigation.",
+        "image": "/lovable-uploads/p9.png"
       }
     ]
   },
