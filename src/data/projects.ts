@@ -94,66 +94,174 @@ export const projects: Project[] = [
       }
     ]
   },
+
   {
-    id: "e-commerce-website-redesign", //
-    title: "FreshMarket E-Commerce Redesign",
-    category: "Web Design",
-    description: "A complete overhaul of an organic grocery e-commerce platform to improve conversion rates and customer satisfaction through intuitive navigation and optimized checkout processes.",
-    shortDescription: "Increasing conversions through improved user flows and visual design",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-    overview: "FreshMarket, a growing online organic grocery retailer, was experiencing high cart abandonment rates and low customer retention. The website redesign focused on creating a more engaging shopping experience and streamlining the path to purchase.",
-    challenge: "The existing website had a cluttered interface, inefficient product filtering, and a complicated checkout process that frustrated users and led to high abandonment rates of 76%.",
-    solution: "I designed a clean, visually appealing interface with improved product categorization, enhanced search functionality, and a simplified 3-step checkout process. The redesign included personalized recommendations and clearer presentation of product information.",
-    results: "The new design reduced cart abandonment by 32%, increased average order value by 18%, and improved mobile conversion rates by 45%. Customer satisfaction scores increased from 3.4 to 4.6 out of 5.",
-    tools: ["Figma", "Adobe XD", "Hotjar", "Optimal Workshop", "Sketch"],
-    process: [
+    "id": "heuristic-evaluation-ixigo-trains",
+    "title": "Heuristic Evaluation of Ixigo Trains App",
+    "category": "Heuristic Evaluation",
+    "description": "Heuristic evaluation of the Ixigo Trains app, focusing on usability principles.",
+    "shortDescription": "Evaluating the Ixigo Trains app using heuristic principles",
+    "image": "/ixigo/Your Group_page-0001.jpg",
+    "overview": "The document presents a heuristic evaluation of the Ixigo Trains app, assessing its compliance with established usability heuristics.",
+    "challenge": "To identify usability issues within the Ixigo Trains app using heuristic evaluation principles.",
+    "solution": "Applying heuristic evaluation principles to analyze the app's interface and functionality.",
+    "results": "The evaluation provides insights into the app's strengths and weaknesses regarding usability, with specific examples related to each heuristic principle.",
+    "tools": ["Heuristic Evaluation Principles"],
+    "process": [
       {
-        title: "Competitive Analysis",
-        description: "Conducted a thorough analysis of competitors and industry leaders to identify best practices and opportunities for differentiation.",
-        image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        "title": "Introduction",
+        "description": "Brief overview of the heuristic evaluation of the Ixigo Trains app.",
+        "image": "/ixigo/Your Group_page-0002.jpg"
       },
       {
-        title: "Wireframing & Prototyping",
-        description: "Developed wireframes and interactive prototypes to test navigation patterns, page layouts, and the checkout flow with actual users.",
-        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
+        "title": "App Description",
+        "description": "Ixigo Trains is described as a versatile travel app offering real-time updates on train schedules, seat availability, ticket booking, and flight bookings.",
+        "image": "/ixigo/Your Group_page-0003.jpg"
       },
       {
-        title: "Usability Testing",
-        description: "Conducted multiple rounds of usability testing to refine the design based on user feedback and behavior observations.",
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3432&q=80"
+        "title": "Heuristic Principles",
+        "description": "Listing of the heuristic principles used for the evaluation, including visibility of system status, match between system and real world, user control and freedom, consistency and standards, error prevention, flexibility and efficiency of use, aesthetic and minimalist design, help users recognize diagnose and recover from errors, and help and documentation.",
+        "image": "/ixigo/Your Group_page-0004.jpg"
+      },
+      {
+        "title": "Evaluation - Visibility of System Status",
+        "description": "Assessment of how the app keeps users informed about what's happening, with examples like the search bar and order confirmation.",
+        "image": "/ixigo/Your Group_page-0005.jpg"
+      },
+      {
+        "title": "Evaluation - Match Between System and Real World",
+        "description": "Analysis of the app's use of language and terminology in relation to users' expectations.",
+        "image": "/ixigo/Your Group_page-0006.jpg"
+      },
+      {
+        "title": "Evaluation - User Control and Freedom",
+        "description": "Examination of how the app supports users in navigating and undoing actions, such as using the 'back' button.",
+        "image": "/ixigo/Your Group_page-0007.jpg"
+      },
+      {
+        "title": "Evaluation - Consistency and Standards",
+        "description": "Identification of inconsistencies and standards issues within the app.",
+        "image": "/ixigo/Your Group_page-0008.jpg"
+      },
+      {
+        "title": "Evaluation - Error Prevention",
+        "description": "Review of the app's features to prevent errors, including undo functionalities and confirmation dialogs.",
+        "image": "/ixigo/Your Group_page-0009.jpg"
+      },
+      {
+        "title": "Evaluation - Flexibility and Efficiency of Use",
+        "description": "Analysis of how the app allows users to customize search criteria and filter results.",
+        "image": "/ixigo/Your Group_page-0010.jpg"
+      },
+      {
+        "title": "Evaluation - Aesthetic and Minimalist Design",
+        "description": "Comment on the app's visual representation and clarity.",
+        "image": "/ixigo/Your Group_page-0011.jpg"
+      },
+      {
+        "title": "Evaluation - Help Users Recognize, Diagnose, and Recover from Errors",
+        "description": "Assessment of error recovery features, such as displaying errors for incorrect passwords.",
+        "image": "/ixigo/Your Group_page-0012.jpg"
+      },
+      {
+        "title": "Evaluation - Help and Documentation",
+        "description": "Availability of customer service and a help center.",
+        "image": "/ixigo/Your Group_page-0013.jpg"
+      },
+      {
+        "title": "Conclusion",
+        "description": "Summarizing the heuristic evaluation.",
+        "image": "/ixigo/Your Group_page-0014.jpg"
       }
     ]
   },
+
   {
-    id: "healthcare-dashboard",
-    title: "MedTrack Patient Dashboard",
-    category: "Dashboard UI/UX",
-    description: "A comprehensive healthcare provider dashboard designed to improve patient care coordination and clinical workflow efficiency through intuitive data visualization and task management.",
-    shortDescription: "Simplifying complex healthcare data for improved clinical decision making",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2426&q=80",
-    overview: "MedTrack needed a centralized dashboard for healthcare providers to access patient information, coordinate care, and manage clinical workflows more efficiently. The goal was to reduce administrative burden and improve patient outcomes.",
-    challenge: "Healthcare providers were struggling with fragmented patient data across multiple systems, leading to inefficiencies, potential errors, and reduced time for patient care. The complex data needed to be presented in an accessible, actionable format.",
-    solution: "I designed an integrated dashboard that consolidated critical patient information with clear data visualization, prioritized task management, and contextual alerts. The interface used color coding, progressive disclosure techniques, and customizable views to manage complexity.",
-    results: "The new dashboard reduced time spent on administrative tasks by 35%, decreased documentation errors by 27%, and improved provider satisfaction scores by 42%. Clinics reported an average 18% increase in patient appointments per day.",
-    tools: ["Figma", "Adobe Illustrator", "Axure RP", "Miro", "Lookback"],
-    process: [
+    "id": "ux-laws-analysis",
+    "title": "UX Laws Analysis",
+    "category": "UX Design Principles",
+    "description": "Analysis of various UX laws and their application (or violation) in different app interfaces.",
+    "shortDescription": "Examining UX laws like Fitts's Law, Miller's Law, Jakob's Law, and Hick's Law in app design",
+    "image": "/law/UX LAWS_page-0001.jpg",
+    "overview": "The document provides explanations of key UX laws and illustrates them with examples from popular mobile applications, highlighting good and bad practices.",
+    "challenge": "To demonstrate the importance of UX laws in creating effective and user-friendly interfaces.",
+    "solution": "Analyzing app interfaces based on established UX principles to identify areas of improvement.",
+    "results": "The analysis offers insights into how adhering to UX laws can enhance user experience and avoid common design pitfalls.",
+    "tools": ["Fitts's Law", "Miller's Law", "Jakob's Law", "Hick's Law"],
+    "process": [
       {
-        title: "Stakeholder Interviews",
-        description: "Conducted extensive interviews with healthcare providers, administrators, and IT staff to understand varied needs and technical constraints.",
-        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80"
+        "title": "Introduction",
+        "description": "Brief overview of the purpose and scope of the analysis.",
+        "image": "/law/UX LAWS_page-0002.jpg"
       },
       {
-        title: "Data Hierarchy & Information Design",
-        description: "Created an information architecture that prioritized critical patient data while making secondary information accessible through progressive disclosure.",
-        image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+        "title": "Fitts's Law",
+        "description": "Explanation of Fitts's Law as a predictive model for target acquisition time.",
+        "image": "/law/UX LAWS_page-0003.jpg"
       },
       {
-        title: "Iterative Prototyping",
-        description: "Developed and refined interactive prototypes through multiple rounds of testing with actual healthcare providers in clinical settings.",
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3432&q=80"
+        "title": "Miller's Law",
+        "description": "Description of Miller's Law regarding the limits of working memory capacity.",
+        "image": "/law/UX LAWS_page-0004.jpg"
+      },
+      {
+        "title": "Jakob's Law",
+        "description": "Explanation of Jakob's Law on user expectations for interface consistency.",
+        "image": "/law/UX LAWS_page-0005.jpg"
+      },
+      {
+        "title": "Hick's Law",
+        "description": "Description of Hick's Law on the relationship between choice and decision time.",
+        "image": "/law/UX LAWS_page-0006.jpg"
+      },
+      {
+        "title": "Amazon - Fitts's Law Violation",
+        "description": "Analysis of Amazon's mobile interface as a violation of Fitts's Law, focusing on small, hard-to-tap buttons.",
+        "image": "/law/UX LAWS_page-0007.jpg"
+      },
+      {
+        "title": "Amazon - Jakob's Law Violation",
+        "description": "Examination of inconsistent navigation and UI complexity in the Amazon app as a violation of Jakob's Law.",
+        "image": "/law/UX LAWS_page-0008.jpg"
+      },
+      {
+        "title": "LinkedIn - Fitts's Law Violation",
+        "description": "Analysis of small, hard-to-tap buttons in the LinkedIn mobile interface.",
+        "image": "/law/UX LAWS_page-0009.jpg"
+      },
+      {
+        "title": "Adobe Acrobat - Miller's Law Violation",
+        "description": "Critique of Adobe Acrobat's interface for presenting too much information at once, violating Miller's Law.",
+        "image": "/law/UX LAWS_page-0010.jpg"
+      },
+     {
+        "title": "Savana - Miller's Law Violation",
+        "description": "Analysis of Savana's interface, which overwhelms users with a single dominant item, blocking access to other useful content, in violation of Miller's Law.",
+        "image": "/law/UX LAWS_page-0011.jpg"
+      },
+      {
+        "title": "MX Player - Hick's Law",
+        "description": "Explanation of how MX Player's interface adheres to Hick's Law by reducing the number of visible options.",
+        "image": "/law/UX LAWS_page-0012.jpg"
+      },
+      {
+        "title": "Daily Hunt - Hick's Law",
+        "description": "Analysis of Daily Hunt's interface, showing how limiting choices and categorizing them effectively aligns with Hick's Law.",
+        "image": "/law/UX LAWS_page-0013.jpg"
+      },
+      {
+        "title": "Dream11 - Jakob’s Law Violation",
+        "description": "Analysis of Dream11’s interface violating Jakob’s Law due to inconsistent navigation and missing search function.",
+        "image": "/law/UX LAWS_page-0014.jpg"
+      },
+      {
+        "title": "Conclusion",
+        "description": "Summary of the importance of UX laws in interface design.",
+        "image": "/law/UX LAWS_page-0015.jpg"
       }
     ]
   },
+
   {
     "id": "health-and-fitness-iconography",
     "title": "Health and Fitness Iconography",
