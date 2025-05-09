@@ -197,67 +197,67 @@ export const projects: Project[] = [
       {
         "title": "Fitts's Law",
         "description": "Explanation of Fitts's Law as a predictive model for target acquisition time.",
-        "image": "/law/UX LAWS_page-0003.jpg"
+        "image": "/law/UX LAWS_page-0007.jpg"
       },
       {
         "title": "Miller's Law",
         "description": "Description of Miller's Law regarding the limits of working memory capacity.",
-        "image": "/law/UX LAWS_page-0004.jpg"
+        "image": "/law/UX LAWS_page-0009.jpg"
       },
       {
         "title": "Jakob's Law",
         "description": "Explanation of Jakob's Law on user expectations for interface consistency.",
-        "image": "/law/UX LAWS_page-0005.jpg"
+        "image": "/law/UX LAWS_page-0004.jpg"
       },
       {
         "title": "Hick's Law",
         "description": "Description of Hick's Law on the relationship between choice and decision time.",
-        "image": "/law/UX LAWS_page-0006.jpg"
+        "image": "/law/UX LAWS_page-0005.jpg"
       },
       {
         "title": "Amazon - Fitts's Law Violation",
         "description": "Analysis of Amazon's mobile interface as a violation of Fitts's Law, focusing on small, hard-to-tap buttons.",
-        "image": "/law/UX LAWS_page-0007.jpg"
+        "image": "/law/UX LAWS_page-0003.jpg"
       },
       {
         "title": "Amazon - Jakob's Law Violation",
         "description": "Examination of inconsistent navigation and UI complexity in the Amazon app as a violation of Jakob's Law.",
-        "image": "/law/UX LAWS_page-0008.jpg"
+        "image": "/law/UX LAWS_page-0004.jpg"
       },
       {
         "title": "LinkedIn - Fitts's Law Violation",
         "description": "Analysis of small, hard-to-tap buttons in the LinkedIn mobile interface.",
-        "image": "/law/UX LAWS_page-0009.jpg"
+        "image": "/law/UX LAWS_page-0005.jpg"
       },
       {
         "title": "Adobe Acrobat - Miller's Law Violation",
         "description": "Critique of Adobe Acrobat's interface for presenting too much information at once, violating Miller's Law.",
-        "image": "/law/UX LAWS_page-0010.jpg"
+        "image": "/law/UX LAWS_page-0006.jpg"
       },
      {
         "title": "Savana - Miller's Law Violation",
         "description": "Analysis of Savana's interface, which overwhelms users with a single dominant item, blocking access to other useful content, in violation of Miller's Law.",
-        "image": "/law/UX LAWS_page-0011.jpg"
+        "image": "/law/UX LAWS_page-0008.jpg"
       },
       {
         "title": "MX Player - Hick's Law",
         "description": "Explanation of how MX Player's interface adheres to Hick's Law by reducing the number of visible options.",
-        "image": "/law/UX LAWS_page-0012.jpg"
+        "image": "/law/UX LAWS_page-0010.jpg"
       },
       {
         "title": "Daily Hunt - Hick's Law",
         "description": "Analysis of Daily Hunt's interface, showing how limiting choices and categorizing them effectively aligns with Hick's Law.",
-        "image": "/law/UX LAWS_page-0013.jpg"
+        "image": "/law/UX LAWS_page-0011.jpg"
       },
       {
         "title": "Dream11 - Jakob’s Law Violation",
         "description": "Analysis of Dream11’s interface violating Jakob’s Law due to inconsistent navigation and missing search function.",
-        "image": "/law/UX LAWS_page-0014.jpg"
+        "image": "/law/UX LAWS_page-0012.jpg"
       },
       {
         "title": "Conclusion",
         "description": "Summary of the importance of UX laws in interface design.",
-        "image": "/law/UX LAWS_page-0015.jpg"
+        "image": "/law/UX LAWS_page-0013.jpg"
       }
     ]
   },
